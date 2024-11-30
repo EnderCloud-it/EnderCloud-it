@@ -1,353 +1,443 @@
-<html lang="it">
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="EnderCloud offre servizi di hosting di alta qualità a prezzi accessibili per garantire a chiunque la possibilità di sviluppare i propri progetti.">
-    <meta name="keywords" content="Hosting, VPS, Minecraft, Rust, CSGO, Web Hosting, Italiano, Provider, Cheap, Economico, International">
-    <meta name="author" content="#LeoGalli">
-    <meta property="og:title" content="EnderCloud">
-    <meta property="og:description" content="Servizi di hosting affidabili e a prezzi accessibili per Minecraft, CSGO, Rust, e molto altro.">
-    <meta property="og:image" content="assets/img/logo.png">
-    <meta property="og:url" content="https://endercloud.it">
-    <meta property="og:type" content="website">
-    <title>EnderCloud - Home</title>
-    <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.owlcarousel/1.31/owl.carousel.css?v=eafa76">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet"/>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>EnderCloud - Hosting & Domain Services HTML</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.3.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
 </head>
+
 <body>
-    <section id="main-menu">
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="navbar-header">
-                <!-- Logo a sinistra che rimanda alla pagina principale -->
-                <a href="index">
-                    <img src="assets/img/logo.png" alt="Logo" class="navbar-brand" style="height: 100px; padding: 10px;">
-                </a>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
             </div>
-            <div class="container">
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-left custom-menu">
-                        <li><a href="index">Home</a></li>
-                        <!-- First dropdown: VPS Hosting -->
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle col-md-12" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VPS Hosting <span class="caret"></span></a>
-                            <ul class="dropdown-menu col-md-12">
-                                <li><img class="img-fluid" src=""><a href="vps">Virtual Private Server</a></li>
-                                <li><img class="img-fluid" src=""><a href="vds">Virtual Dedicated Server</a></li>
-                                <li><img class="img-fluid" src=""><a href="vpsplus">Virtual Private Server Plus</a></li>
-                            </ul>
-                        </li>
-                        <!-- Second dropdown: Altri Hosting -->
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle col-md-12" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Altri Hosting <span class="caret"></span></a>
-                            <ul class="dropdown-menu col-md-12">
-                                <li><img class="img-fluid" src="assets/img/game-rust.png"><a href="rust">Rust</a></li>
-                                <li><img class="img-fluid" src="assets/img/game-csgo.png"><a href="csgo">CSGO</a></li>
-                                <li><img class="img-fluid" src="assets/img/game-minecraft.png"><a href="minecraft">Minecraft</a></li>
-                                <li><img class="img-fluid" src="assets/img/ts3.png"><a href="teamspeak">Team speak</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="web-hosting">Web Hosting</a></li>
-                        <li><a href="#">Supporto</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right custom-menu">
-                        <li><a href="areaclienti" class="btn btn-primary">Area Clienti</a></li>
-                        <li><a href="carrello"><i class="fas fa-shopping-cart"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </section>
-    <section id="r-slider">
-        <div id="owl-main" class="owl-carousel height-md owl-inner-nav owl-ui-lg"> 
-            <div class="item" style="background-image: url('assets/img/slider-3.png')">
-                <div class="container">
-                    <div class="caption vertical-center">                              
-                        <h4 class="fadeInDown-1"><span>Ender</span>Cloud</h4>
-                        <p class="fadeInDown-2">Servizi di qualità ad un prezzo accessibile a tutti.</p>
-                        <br/>
-                        <div class="fadeInDown-3">
-                            <a href="" class="btn btn-primary">Servizi</a>
-                        </div>                           
+        </div>
+    </div>
+    <header class="header navbar-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index">
+                                <img src="assets/images/logo/white-logo.svg" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a href="index" class="active" aria-label="Toggle navigation">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
+                                            data-bs-target="#submenu-1-2" aria-controls="navbarSupportedContent"
+                                            aria-expanded="false" aria-label="Toggle navigation">Hosting</a>
+                                        <ul class="sub-menu collapse" id="submenu-1-2">
+                                            <li class="nav-item"><a href="game-hosting">Game Hosting</a></li>
+                                            <li class="nav-item"><a href="dedicated-hosting">Dedicated Servers</a>
+                                            </li>
+                                            <li class="nav-item"><a href="vps-hosting">VPS Servers</a></li>
+											<li class="nav-item"><a href="web-hosting">Web Hosting</a></li>
+                                            <li class="nav-item"><a href="reseller-hosting">Reseller Hosting</a>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
+                                            data-bs-target="#submenu-1-3" aria-controls="navbarSupportedContent"
+                                            aria-expanded="false" aria-label="Toggle navigation">Blog</a>
+                                        <ul class="sub-menu collapse" id="submenu-1-3">
+                                            <li class="nav-item"><a href="blog-grid.html">Blog Grid</a>
+                                            </li>
+                                            <li class="nav-item"><a href="blog-single.html">Blog Single</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="contact.html" aria-label="Toggle navigation">Contact</a>
+                                    </li>
+                                </ul>
+                            <div class="button">
+                                <a href="signup.html" class="btn">Registrati</a>
+                            </div>
+                        </nav>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <div class="services col-md-12">
+    </header>
+    <section class="hero-area">
         <div class="container">
-        <div class="sub-heading">
-            <span>servizi</span>
-        </div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="card">
-						<div class="card-icon">
-							<img src="assets/img/rust.png">
-						</div>
-						<div class="card-title">
-							A partire da
-						</div>
-						<p>2.0&euro;</p>
-						<a href="#" class="btn btn-purple">Shop now</a>
-					</div>
-				</div>
-				
-				<div class="col-md-4">
-					<div class="card">
-						<div class="card-icon">
-							<img src="assets/img/mc.png">
-						</div>
-						<div class="card-title">
-							A partire da
-						</div>
-						<p>6.0&euro;</p>
-						<a href="#" class="btn btn-purple">Shop now</a>
-					</div>
-				</div>
-                <div class="col-md-4">
-					<div class="card">
-						<div class="card-icon">
-							<img src="assets/img/fivem.png">
-						</div>
-						<div class="card-title">
-							A partire da
-						</div>
-						<p>2.0&euro;</p>
-						<a href="#" class="btn btn-purple">Shop now</a>
-					</div>
-				</div>
-                
-			</div>
-		</div>
-    </div>
-    </div>
-    <div class="features-main">
-        <div class="container">
-            <div class="sub-heading">
-                <span>Features</span>
-            </div>
-            <div class="col-md-6">
-                <div class="features">
-                  <li>
-                    <div>
-                        <img src="assets/img/Reload Icon.png">
-                        <h4><span>Interfaccia</span> Facilitata</h4>
-                        <p>Pannelli di controllo semplificati per garantire un esperienza perfetta, conservando la stabilità e performance di altri.</p>
+            <div class="row align-items-center">
+                <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
+                    <div class="hero-content">
+                        <h4 class="wow fadeInUp" data-wow-delay=".2s">Alta Qualità
+                        </h4>
+                        <h1 class="wow fadeInUp" data-wow-delay=".4s">
+                            Hosting affidabile ed economico
+                        </h1>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">Explore and learn more about everything from
+                            machine learning and global payments to scaling your team.</p>
+                        <h5 class="wow fadeInUp" data-wow-delay=".8s">A partire da &euro; x.xx/mese</h5>
+                        <div class="button wow zoomIn" data-wow-delay="1s">
+                            <a href="#pricing"><i class="lni lni-arrow-down-circle"></i></a>
                         </div>
-                        </li>
-                        <li class="darkbg">
-                            <div>
-                                <img src="assets/img/Inbox Icon.png">
-                                <h4><span>Low</span> cost</h4>
-                                <p>Garantiamo la massima qualità possibile dalla <a href="https://deluxhost.net/about/datacenter" class="darkbg">nostra infrastruttura</a> ad un prezzo bassissimo</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <img src="assets/img/Clock Icon.png">
-                                <h4>Supporto <span>Immediato</span></h4>
-                                <p>Il nostro team sarà lieto di aiutarvi a tutti gli orari del giorno per soddisfare le vostre richieste</p>
-                            </div>
-                        </li>
-                </div>
-            </div>
-                <div class="col-md-6">
-                  <div id="map">
-                    <div class="img-container">
-                        <img src="assets/img/map.png" alt="Map">
                     </div>
-                  </div>
                 </div>
             </div>
         </div>
-        <section class="testimonials aos-init aos-animate" id="carousel">
-            <div class="container">
+    </section>
+    <section class="domain-search">
+        <div class="container">
+            <div class="inner-cotainer">
+                <img class="sahpe" src="assets/images/shapes/shape.png" alt="#">
+                <img class="sahpe2" src="assets/images/shapes/shape.png" alt="#">
                 <div class="row">
-                
-                    <div class="col-md-12">
-                        <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="2500">
-                            <ol class="carousel-indicators">
-                                <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#fade-quote-carousel" data-slide-to="1" class=""></li>
-                                </ol>
-                            <!-- <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="col-sm-4">
-                                        <div class="profile-circle"><img src="assets/img/people.png" class="img-responsive" alt="">
+                    <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
+                        <div class="content">
+                            <h2><span>Stai cercando un dominio unico e economico?</span>Acquistalo ora</h2>
+                            <div class="search-form">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="search-input">
+                                            <input type="text" name="name" id="name"
+                                                placeholder="Inserisci il tuo dominio">
                                         </div>
-                                        
-                                        <blockquote>
-                                            <h3>MELINDA PERKINS<br>MANAGER @ CARTE.IO</br>
-                                                </h3>
-                                            <p><i class="fa quote fa-quote-right fa-sm pull-left"></i>
-                                                <br>
-                                                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendu<i class="fa quote fa-quote-right fa-sm "></i></p>
-                                            
-                                        </blockquote>
                                     </div>
-                                    <div class="col-sm-4">
-                                        <div class="profile-circle"><img src="assets/img/people.png" class="img-responsive" alt="">
+                                    <div class="col-lg-3 col-md-3 col-12">
+                                        <div class="search-input">
+                                            <label for="extention"><i class="lni lni-chevron-down"></i></label>
+                                            <select name="extention" id="extention">
+                                                <option value="none" selected>.com</option>
+                                                <option value="none">.net</option>
+                                                <option value="none">.store</option>
+                                                <option value="none">.info</option>
+                                                <option value="none">.to</option>
+                                                <option value="none">.io</option>
+                                            </select>
                                         </div>
-                                        <blockquote>
-                                            <h3>MELINDA PERKINS<br>MANAGER @ CARTE.IO</br>
-                                            </h3>
-                                            <p><i class="fa quote fa-quote-right fa-sm pull-left"></i>
-                                                <br>
-                                                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendu<i class="fa quote fa-quote-right fa-sm "></i></p>
-                                            
-                                        </blockquote>
                                     </div>
-                                    <div class="col-sm-4">
-                                        <div class="profile-circle"><img src="assets/img/people.png" class="img-responsive" alt="">
+                                    <div class="col-lg-3 col-md-3 col-12">
+                                        <div class="search-btn button">
+                                            <button class="btn">Search</button>
                                         </div>
-                                        <blockquote>
-                                            <h3>MELINDA PERKINS<br>MANAGER @ CARTE.IO</br>
-                                            </h3>
-                                            <p><i class="fa quote fa-quote-right fa-sm pull-left"></i>
-                                                <br>
-                                                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendu<i class="fa quote fa-quote-right fa-sm "></i></p>
-                                            
-                                        </blockquote>
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <div class="col-sm-4">
-                                        <div class="profile-circle"><img src="assets/img/people.png" class="img-responsive" alt="">
-                                        </div>
-                                        <blockquote>
-                                            <h3>MELINDA PERKINS<br>MANAGER @ CARTE.IO</br>
-                                            </h3>
-                                            <p><i class="fa quote fa-quote-right fa-sm pull-left"></i>
-                                                <br>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis
-                                                nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos
-                                                eaque
-                                                molestias.<i class="fa quote fa-quote-right fa-sm "></i></p>
-                                            
-                                        </blockquote>
+                            </div>
+                            <ul class="extention-list">
+                                <li><a href="javascript:void(0)">
+                                        .com
+                                        <span>&euro;9.95/yr</span>
+                                    </a>
+                                </li>
+                                <li><a href="javascript:void(0)">
+                                        .net
+                                        <span>&euro;8.25/yr</span>
+                                    </a>
+                                </li>
+                                <li><a href="javascript:void(0)">
+                                        .info
+                                        <span>&euro;7.22/yr</span>
+                                    </a>
+                                </li>
+                                <li><a href="javascript:void(0)">
+                                        .store
+                                        <span>&euro;10.99/yr</span>
+                                    </a>
+                                </li>
+                                <li><a href="javascript:void(0)">
+                                        .org
+                                        <span>&euro;12.90/yr</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features section">
+        <img class="shape" src="assets/images/shapes/shape.png" alt="#">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h3 class="wow zoomIn" data-wow-delay=".2s">I nostri punti di forza</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Le nostre Features</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">Riportate qui trovate le nostre caratteristiche principali</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
+                        <div class="list-icon">
+                            <i class="lni lni-bolt"></i>
+                        </div>
+                        <h3>Consegna Veloce</h3>
+                        <p>Consegnamo i vostri prodotti nel minor tempo possibile già pronti per l'uso.
+                        </p>
+                    </div>
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
+                        <div class="list-icon">
+                            <i class="lni lni-lock"></i>
+                        </div>
+                        <h3>100% Sicuro</h3>
+                        <p>I tuoi dati sono contenuti nei nostri database in modo tale che non possano essere usati al diffuori di quello da noi specificato.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
+                        <div class="list-icon">
+                            <i class="lni lni-dashboard"></i>
+                        </div>
+                        <h3>99.99% Uptime Garantito</h3>
+                        <p>Grazie alle nostre macchine vi garantiamo prestzioni ed uptime massime.
+                        </p>
+                    </div>
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
+                        <div class="list-icon">
+                            <i class="lni lni-headphone"></i>
+                        </div>
+                        <h3>Supporto 24/7</h3>
+                        <p>Vi forniamo supporto a qualsiasi ora del giorno via ticket dell' area clienti, ticket discord o telegram per fare si che siate sempre operativi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 align-center">
+                    <div class="explore-all button">
+                        <a href="javascript:void(0)" class="btn">Vedi i piani</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="pricing-style2 section bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h3 class="wow zoomIn" data-wow-delay=".2s">Prezzi</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Scegli il tuo servizio</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">Tra le nostre varie alternative di qualità.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="single-pricing">
+                        <div class="p-icon">
+                            <i class="lni lni-folder"></i>
+                        </div>
+                        <h3 class="title">Virtual Private Server</h3>
+                        <p class="des">Disponibili con qualsiasi ISO tu desideri, compreso il tuo! Attualmente disponibili Ubuntu e Debian</p>
+                        <span class="start-at">A partire da:</span>
+                        <h3 class="price">
+                            &euro;2<span class="sent">.50</span><span class="duration">/mese</span>
+                        </h3>
+                        <div class="button">
+                            <a class="btn" href="javascript:void(0)">Ordina Ora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="single-pricing">
+                        <div class="p-icon">
+                            <i class="lni lni-handshake"></i>
+                        </div>
+                        <h3 class="title">Web Hosting</h3>
+                        <p class="des">Disponibile come new entry tra i nostri servizi con l'obbiettivo di non rimanere indietro rispetto ai competitors</p>
+                        <span class="start-at">A partire da:</span>
+                        <h3 class="price">
+                            &euro;2<span class="sent">.50</span><span class="duration">/mese</span>
+                        </h3>
+                        <div class="button">
+                            <a class="btn" href="javascript:void(0)">Ordina Ora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="single-pricing">
+                        <div class="p-icon">
+                            <i class="lni lni-layers"></i>
+                        </div>
+                        <h3 class="title">GameHosting</h3>
+                        <p class="des">Offriamo qualsiasi gioco tu desideri. I prezzi variano in base al gioco stesso.</p>
+                        <span class="start-at">A partire da:</span>
+                        <h3 class="price">
+                            &euro;1<span class="sent">.99</span><span class="duration">/mese (CS:GO)</span>
+                        </h3>
+                        <div class="button">
+                            <a class="btn" href="javascript:void(0)">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="call-action">
+        <div class="container">
+            <div class="inner-content">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-7 col-12">
+                        <div class="text">
+                            <h2>Benvenuto in
+                                <br> <span>EnderCloud</span>
+                            </h2>
+                            <p style="display: block;margin-top: 10px;">Se vuopi contattarci ecco a te il link per farlo. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-5 col-12">
+                        <div class="button">
+                            <a href="https://discadia.com/endercloud" class="btn">Discord
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer section">
+        <div class="footer-top">
+            <div class="container">
+                <div class="inner-content">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single-footer f-about">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="assets/images/logo/white-logo.svg" alt="#">
+                                    </a>
+                                </div>
+                                <p>Nato nel 2024 per soddisfare le richieste di tutti ad un prezzo ponderato e mantenendo professionalità e trasparenza
+                                </p>
+                                <a class="call" href="tel:8884014678"><i class="lni lni-phone-set"></i> t.me/endercloud_supporto</a>
+                                <div class="payments">
+                                    <img src="assets/images/footer/cards.png" alt="#">
+                                </div>
+                                <ul class="social">
+                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-instagram"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-youtube"></i></a></li>
+                                </ul>
+                                <p class="copyright-text">© 2024 EnderCloud.<br>
+                                    Progetto sviluppato da <a href="https://leodev.it/"
+                                        target="_blank">Leo</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-12">
+                            <div class="single-footer f-link">
+                                <h3>Pagine</h3>
+                                <ul>
+                                    <li><a href="javascript:void(0)">About Us</a></li>
+                                    <li><a href="billing">Billing</a></li>
+                                    <li><a href="prezzi">Prezzi <span style="margin-left: 4px;"
+                                                class="badge bg-success rounded text-white">Nuovo</span></a></li>
+                                    <li><a href="javascript:void(0)">Contatti</a></li>
+                                </ul>
+                                <h4 class="mt-40 mb-20 text-white" style="font-size: 18px;">Hosting</h4>
+                                <ul>
+                                    <li><a href="javascript:void(0)">VPS</a></li>
+                                    <li><a href="javascript:void(0)">Web Hosting</a></li>
+                                    <li><a href="javascript:void(0)">Game Hosting</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-12">
+                            <div class="single-footer f-link">
+                                <h3>Sicurezza</h3>
+                                <ul>
+                                    <li><a href="privacy">Privacy Policy</a></li>
+                                    <li><a href="tos)">Terms and Conditions</a></li>
+                                    <li><a href="disclaimer">Disclaimer</a></li>
+                                    <li><a href="faq">FAQ</a></li>
+                                </ul>
+                                <h4 class="mt-40 mb-20 text-white" style="font-size: 18px;">Supporto</h4>
+                                <ul>
+                                    <li><a href="https://discadia.com/endercloud">Discord</a></li>
+                                    <li><a href="https://status.endercloud.it">Status</a></li>
+                                    <li><a href="https://deluxhost.net/about/datacenter">DataCentre</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single-footer latest-news">
+                                <h3>News</h3>
+                                <div class="single-head">
+                                    <div class="single-news">
+                                        <span class="date"><a href=""></a></span>
+                                        <h4 class="post-title"><a href=""></a>
+                                        </h4>
                                     </div>
-                                    <div class="col-sm-4">
-                                        <div class="profile-circle"><img src="assets/img/people.png" class="img-responsive" alt="">
-                                        </div>
-                                        <blockquote>
-                                            <h3>MELINDA PERKINS<br>MANAGER @ CARTE.IO</br>
-                                            </h3>
-                                            <p><i class="fa quote fa-quote-right fa-sm pull-left"></i>
-                                                <br>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis
-                                                nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos
-                                                eaque
-                                                molestias.<i class="fa quote fa-quote-right fa-sm "></i></p>
-                                            
-                                        </blockquote>
+                                    <div class="single-news">
+                                        <span class="date"><a href=""></a></span>
+                                        <h4 class="post-title"><a href=""></a>
+                                        </h4>
                                     </div>
-                                    <div class="col-sm-4">
-                                        <div class="profile-circle"><img src="assets/img/people.png" class="img-responsive" alt="">
-                                        </div>
-                                        <blockquote>
-                                            <h3>MELINDA PERKINS<br>MANAGER @ CARTE.IO</br>
-                                            </h3>
-                                            <p><i class="fa quote fa-quote-right fa-sm pull-left"></i>
-                                                <br>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis
-                                                nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos
-                                                eaque
-                                                molestias.<i class="fa quote fa-quote-right fa-sm "></i></p>
-                                            
-                                        </blockquote>
+                                    <div class="single-news">
+                                        <span class="date"><a href=""></a></span>
+                                        <h4 class="post-title"><a href=""></a>
+                                        </h4>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="footer">
+        </div>
+        <div class="footer-bottom-area">
             <div class="container">
-                <div class="top-footer">
-                    <div class="quick-nav pull-right">
-                        <a href="#">Prodotti</a>
-                        <a href="#">Blog</a>
-                        <a href="https://deluxhost.net/about/datacenter">DataCentre</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-3">
-                            <h3 class="headfottxt">EnderCloud</h3>
-                            <p class="headfottxtp">EnderCloud è un servizio affiliato a DeluxHost, mantiene la propria indipendenza nell' amministrazione e vendita.. </p>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="fotbox">
-                            <img src="assets/img/want-more-9a674800193a5e784c00f29dc923c931.png" alt="want-more">
-                            <h3 class="text-center headfottxt">Non trovi il piano che cerchi?</h3>
-                            <p class="text-center headfottxtpp">Puoi sempre pensare ad un piano customizzato</p>
+                <div class="inner-content">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <p class="text">EnderCloud è un servizio affiliato legalmente a DeluxHost. <a href="https://deluxhost.net/">DeluxHost</a>
+
+                            </p>
                         </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="fotbox">
-                            <img src="assets/img/Forma 1.png" alt="forma 1">
-                            <h3 class="text-center headfottxt">Contattaci</h3>
-                            <p class="text-center headfottxtpp">Contattaci qui: <br>https://discadia.com/endercloud</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="fotbox">
-                            <img src="assets/img/Forma 2.png" alt="forma 2">
-                            <h3 class="text-center headfottxt">Stay in Touch</h3>
-                            <p class="text-center headfottxtpp">Iscriviti alla nostra newsletter (in arrivo)</p>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="footer-bottom">
-            <div class="container">
-                <div class="quicknavbot">
-                    <a href="chisiamo">Chi Siamo</a>
-                    <a href="tos">TOS</a>
-                    <a href="payments">Pagamenti</a>
-                    <a href="blog">Blog</a>
-                </div>
-                <div class="col-sm-7">
-                    <div class="copyright">
-                        <p>© 2024 copyright <a href="#">EnderCloud</a>. <span>Creato con il <i class="fas fa-heart"></i> da Leo</i></span></p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="social-icon">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        </div>
+    </footer>
+
+
+    <a href="#" class="scroll-top">
+        <i class="lni lni-arrow-up-circle"></i>
+    </a>
+
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/count-up.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.owlcarousel/1.31/owl.carousel.js?v=eafa76"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js?v=eafa76"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js?v=eafa76"></script>
-    <script src="assets/js/disable-right-click.js"></script>
+	
 </body>
+
 </html>
