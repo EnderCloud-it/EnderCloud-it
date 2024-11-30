@@ -18,7 +18,7 @@ section#main-menu {
     margin-bottom: 20px;
 }
 #r-slider span {
-    color: #7a64ed;
+    color: #64ade6;
 }
 #r-slider p {
     font-size: 14px;
@@ -494,7 +494,7 @@ section#main-menu {
 	color: #fff;
 }
 .services .card .btn-purple {
-	background: #7a64ed;
+	background: #4ba3c3;
     font-weight: 600;
     width: 170px;
     padding: 10px 10px 10px;
@@ -537,7 +537,7 @@ section#main-menu {
 
 .services .sub-heading {
     height: 0;
-    border-top: 5px solid #7a64ed;
+    border-top: 5px solid #4ba3c3;
     text-align: center;
     margin-top: 5rem;
     border-radius: 10px;
